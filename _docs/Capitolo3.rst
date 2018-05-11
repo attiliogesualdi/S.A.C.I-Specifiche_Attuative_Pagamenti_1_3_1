@@ -95,18 +95,18 @@ utilizzate nella disposizione di accredito (SCT):
 
 **/RFS/RF23 5674 8393 7849 4505 5087 5/45.56**
 
-    la stringa riporta un pagamento il cui codice IUV è generato secondo
-    lo standard ISO 11649 ed il cui importo è di € 45,56. Si noti che lo
-    “*Structured Creditor Reference*” è riprodotto a gruppi di
-    quattro caratteri separati da uno spazio.
+la stringa riporta un pagamento il cui codice IUV è generato secondo
+lo standard ISO 11649 ed il cui importo è di € 45,56. Si noti che lo
+“*Structured Creditor Reference*” è riprodotto a gruppi di
+quattro caratteri separati da uno spazio.
 
-    **/RFB/9876096598656344**
+**/RFB/9876096598656344**
 
-    la stringa riporta un pagamento il cui codice IUV non è conforme
-    allo standard ISO 11649 ed è generato secondo un algoritmo
-    proprietario stabilito dall’amministrazione
+la stringa riporta un pagamento il cui codice IUV non è conforme
+allo standard ISO 11649 ed è generato secondo un algoritmo
+proprietario stabilito dall’amministrazione
 
-    **/RFB/9876096598656344/12.34/TXT/Richiesta certificato**
+**/RFB/9876096598656344/12.34/TXT/Richiesta certificato**
 
 la stringa riporta un pagamento il cui codice IUV non è conforme allo
 standard ISO 11649, il cui importo è di € 12,34 e contiene una
@@ -114,6 +114,6 @@ comunicazione del debitore inserita dal PSP successivamente
 all’imputazione della disposizione di accredito (SCT).
 
 
-.. |image0| image:: ./myMediaFolder/media/image1.png
+.. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
