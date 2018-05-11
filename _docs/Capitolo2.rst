@@ -515,7 +515,7 @@ alfanumerico> dovrà essere costante nel corso del tempo.
 .. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
-.. |image1| image:: media/image5small.png
+.. |image1| image:: media/image5.png
    :width: 0.7874in
    :height: 0.24059in
 .. |image2| image:: media/image9.png
