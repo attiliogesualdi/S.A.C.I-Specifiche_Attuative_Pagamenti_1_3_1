@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._generazione-dellidentificativo-univoco-di-versamento:
+.. _generazione-dellidentificativo-univoco-di-versamento:
 
 Generazione dell’Identificativo Univoco di Versamento |image1|
 =====================================================
@@ -127,7 +127,7 @@ b. **Punti di generazione del Codice IUV**: qualsiasi intermediario o
 Uno schema delle modalità di attribuzione del Codice Segregazione è
 riportata in Figura 2.
 
-|image12|
+|image2|
 
 Figura 2 - Attribuzione del codice segregazione
 
@@ -517,6 +517,6 @@ alfanumerico> dovrà essere costante nel corso del tempo.
 .. |image1| image:: media/image5.png
    :width: 0.7874in
    :height: 0.24059in
-.. |image9| image:: media/image8.png
+.. |image2| image:: media/image9.png
    :width: 5.90551in
    :height: 3.33513in
