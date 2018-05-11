@@ -57,7 +57,7 @@ graficamente come segue:
 |                                   | paragrafi facenti parte della     |
 |                                   | nuova parte di testo sono da      |
 |                                   | considerare innovazioni.          |
-+===================================+===================================+
++-----------------------------------+-----------------------------------+
 | |image6|                          | Indica che le nuove parti di      |
 |                                   | testo hanno integralmente         |
 |                                   | sostituito dal testo del nuovo    |
