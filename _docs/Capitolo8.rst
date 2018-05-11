@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._riconciliazione-del-flusso-di-riversamento:
+.. _riconciliazione-del-flusso-di-riversamento:
 
 Riconciliazione del flusso di riversamento  |image19| 
 ==========================================
