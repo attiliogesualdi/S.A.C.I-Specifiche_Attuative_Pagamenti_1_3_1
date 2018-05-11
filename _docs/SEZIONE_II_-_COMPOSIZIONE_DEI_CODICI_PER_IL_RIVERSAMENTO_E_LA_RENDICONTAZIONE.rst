@@ -11,8 +11,10 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-Sezione II - Composizione dei codici per il riversamento e la
-Rendicontazione
+.. _SezioneII:
+
+Sezione II - Composizione dei codici per il riversamento e la Rendicontazione
+=============================================================================
 
 Premesso che il formato dei codici relativi alle disposizioni di
 bonifico tramite SCT, nonché quello dei versamenti tramite bollettino di
@@ -23,6 +25,6 @@ dell'importo trasferito al tesoriere dell'ente, nonché le informazioni
 che lo stesso PSP deve mettere a disposizione dell'Ente Creditore ai
 fini della rendicontazione e riconciliazione dei pagamenti.
 
-.. |image0| image:: ./myMediaFolder/media/image1.png
+.. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
