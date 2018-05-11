@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._riversamento-agli-enti-creditori:
+.. _riversamento-agli-enti-creditori:
 
 Riversamento agli enti creditori |image4|
 --------------------------------
