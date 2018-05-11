@@ -12,7 +12,7 @@
 +---------------------------------------------------------------------------------------------------+
 
 
-.._siti-web-degli-enti-creditori:
+.. _siti-web-degli-enti-creditori:
 
 Siti web Degli Enti Creditori
 =============================
