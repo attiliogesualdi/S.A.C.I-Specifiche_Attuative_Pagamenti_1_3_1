@@ -511,12 +511,12 @@ alfanumerico> dovrà essere costante nel corso del tempo.
    `http://www.jknc.eu/RFcalculator <http://www.jknc.eu/RFcalculator>`__
 
 
-.. |image0| image:: ./myMediaFolder/media/image1.png
+.. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
-.. |image5| image:: ./myMediaFolder/media/image4.png
+.. |image5| image:: media/image4.png
    :width: 0.7874in
    :height: 0.24059in
-.. |image9| image:: ./myMediaFolder/media/image8.png
+.. |image9| image:: media/image8.png
    :width: 5.90551in
    :height: 3.33513in
