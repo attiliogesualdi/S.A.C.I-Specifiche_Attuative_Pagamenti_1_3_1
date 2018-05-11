@@ -13,9 +13,9 @@
 
 .. _generazione-dellidentificativo-univoco-di-versamento:
 
-+--------------------------------------------------------+--------+
-| Generazione dell’Identificativo Univoco di Versamento  ||image1||
-+--------------------------------------------------------+--------+
++--------------------------------------------------------+----------+
+| Generazione dell’Identificativo Univoco di Versamento  | |image1| |
++--------------------------------------------------------+----------+
 
 Secondo quanto definito nel `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
 delle Linee guida, 
@@ -515,9 +515,9 @@ alfanumerico> dovrà essere costante nel corso del tempo.
 .. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
-.. |image1| image:: media/image5.png
-   :width: 0.0007874in
-   :height: 0.00024059in
+.. |image1| image:: media/image5small.png
+   :width: 0.7874in
+   :height: 0.24059in
 .. |image2| image:: media/image9.png
    :width: 5.90551in
    :height: 3.33513in
