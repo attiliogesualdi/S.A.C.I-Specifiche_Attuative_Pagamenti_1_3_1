@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._formato-della-causale-di-versamento:
+.. _formato-della-causale-di-versamento:
 
 Formato della Causale di versamento 
 ===================================
