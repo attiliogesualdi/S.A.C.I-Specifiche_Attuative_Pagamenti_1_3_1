@@ -32,14 +32,13 @@ utilizzata strutturazione raccomandata dalla EACT:
 
 Dove:
 
-    “**/PUR/**” e “**/URI/**” sono costanti (*tag*) definite dallo standard EACT,
+“**/PUR/**” e “**/URI/**” sono costanti (*tag*) definite dallo standard EACT,
+<**purpose**> rappresenta la codifica dello ‘scopo’ (PURpose) del
+SCT, e deve riportare il valore prefissato **LGPE-RIVERSAMENTO**
 
-    <**purpose**> rappresenta la codifica dello ‘scopo’ (PURpose) del
-    SCT, e deve riportare il valore prefissato **LGPE-RIVERSAMENTO**
-
-    **< idFlusso >** specifica il dato relativo all’informazione
-    identificativoFlusso presente nel flusso di rendicontazione
-    descritto nel successivo :ref:`capitolo 7 <flusso-di-rendicontazione>`.
+**< idFlusso >** specifica il dato relativo all’informazione
+identificativoFlusso presente nel flusso di rendicontazione
+descritto nel successivo :ref:`capitolo 7 <flusso-di-rendicontazione>`.
 
 Qualora, al momento della predisposizione del flusso di rendicontazione,
 il prestatore di servizi di pagamento non disponga del TRN (attributo
