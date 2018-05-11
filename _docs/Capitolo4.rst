@@ -14,7 +14,7 @@
 .. _operazione-di-trasferimento-fondi:
 
 OPERAZIONE di trasferimento fondi |image4|
----------------------------------
+=================================
 
 Per l’esecuzione dell’operazione devono essere utilizzati gli schemi
 previsti del SEPA Credit Transfer (cfr SEPA *Credit Transfert Scheme
