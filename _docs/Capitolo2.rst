@@ -516,8 +516,8 @@ alfanumerico> dovrà essere costante nel corso del tempo.
    :width: 4.05in
    :height: 0.89306in
 .. |image1| image:: media/image5.png
-   :width: 0.007874in
-   :height: 0.0024059in
+   :width: 0.0007874in
+   :height: 0.00024059in
 .. |image2| image:: media/image9.png
    :width: 5.90551in
    :height: 3.33513in
