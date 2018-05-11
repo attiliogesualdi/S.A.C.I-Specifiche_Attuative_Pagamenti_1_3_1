@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._flusso-di-rendicontazione:
+.. _flusso-di-rendicontazione:
 
 Flusso di Rendicontazione  |image17|
 -------------------------
@@ -250,20 +250,20 @@ rendicontazione è riportato nella colonna “contenuto” della Tabella 4,
 di seguito sono riportate alcune precisazioni sui dati presenti nel
 flusso di rendicontazione:
 
-    **identificativoFlusso:** deve essere lo stesso riportato nel
-    componente **< idFlusso>** della causale del SEPA Credit Transfer di
-    Riversamento (dato “*Unstructured Remittance Information*” -
-    attributo AT-05, :ref:`vedi capitolo 6 <riversamento-agli-enti-creditori>`);
+**identificativoFlusso:** deve essere lo stesso riportato nel
+componente **< idFlusso>** della causale del SEPA Credit Transfer di
+Riversamento (dato “*Unstructured Remittance Information*” -
+attributo AT-05, :ref:`vedi capitolo 6 <riversamento-agli-enti-creditori>`);
 
-    **identificativoUnivocoMittente:** la struttura deve coincidere con
-    quella presente nell’elemento identificativoUnivocoAttestante
-    indicato della RT rendicontata (`cfr. § 5.3.2 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo5.html#ricevuta-telematica-rt>`_     dell’Allegato B alle Linee guida *“Specifiche Attuative del Nodo dei Pagamenti-SPC”*).
+**identificativoUnivocoMittente:** la struttura deve coincidere con
+quella presente nell’elemento identificativoUnivocoAttestante
+indicato della RT rendicontata (`cfr. § 5.3.2 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo5.html#ricevuta-telematica-rt>`_     dell’Allegato B alle Linee guida *“Specifiche Attuative del Nodo dei Pagamenti-SPC”*).
 
-    **identificativoUnivocoRegolamento:** ulteriore dato ‘non ambiguo’
-    utilizzato per abbinare il flusso di rendicontazione con l’accredito
-    ricevuto. Può contenere, in alternativa, uno dei seguenti dati
-    presenti nel SCT di riversamento (cfr. *SEPA Credit Transfert Scheme
-    Rulebook*):
+**identificativoUnivocoRegolamento:** ulteriore dato ‘non ambiguo’
+utilizzato per abbinare il flusso di rendicontazione con l’accredito
+ricevuto. Può contenere, in alternativa, uno dei seguenti dati
+presenti nel SCT di riversamento (cfr. *SEPA Credit Transfert Scheme
+Rulebook*):
 
 - a) *Transaction Reference Number* (TRN, attributo AT-43 Originator
      Bank’s Reference), qualora il PSP, al momento della generazione
@@ -272,23 +272,23 @@ flusso di rendicontazione:
 - b) *EndToEndId* (attributo AT-41 Originator’s Reference), in caso
      contrario.
 
-    **identificativoUnivocoRiscossione:** rappresenta l’identificativo
-    con il quale il prestatore di servizi di pagamento individua la
-    singola operazione. Nel caso di utilizzo dell’infrastruttura di cui
-    all’articolo 81, comma 2-bis del CAD, tale informazione si riferisce
-    all’omonimo dato presente nella “Ricevuta Telematica” di cui alla
-    Sezione II delle , alle quali si rimanda per i dettagli;
+**identificativoUnivocoRiscossione:** rappresenta l’identificativo
+con il quale il prestatore di servizi di pagamento individua la
+singola operazione. Nel caso di utilizzo dell’infrastruttura di cui
+all’articolo 81, comma 2-bis del CAD, tale informazione si riferisce
+all’omonimo dato presente nella “Ricevuta Telematica” di cui alla
+Sezione II delle , alle quali si rimanda per i dettagli;
 
-    **indiceDatiSingoloPagamento:** dato facoltativo che rappresenta la
-    i-esima occorrenza di pagamento all’interno della struttura
-    datiSingoloPagamento presente nell’oggetto RT (“Ricevuta
-    Telematica”) di cui alla Sezione II dell’Allegato B alle Linee guida;
+**indiceDatiSingoloPagamento:** dato facoltativo che rappresenta la
+i-esima occorrenza di pagamento all’interno della struttura
+datiSingoloPagamento presente nell’oggetto RT (“Ricevuta
+Telematica”) di cui alla Sezione II dell’Allegato B alle Linee guida;
 
-    **dataEsitoSingoloPagamento:** tale data deve coincidere con quella
-    dell’omologo dato presente nell’oggetto RT (“Ricevuta Telematica”) o
-    nell’elemento dataEsitoRevoca della struttura datiSingolaRevoca
-    presente nell’oggetto ER (“Esito Revoca”) di cui alla Sezione II
-    dell’Allegato B alle Linee guida .
+**dataEsitoSingoloPagamento:** tale data deve coincidere con quella
+dell’omologo dato presente nell’oggetto RT (“Ricevuta Telematica”) o
+nell’elemento dataEsitoRevoca della struttura datiSingolaRevoca
+presente nell’oggetto ER (“Esito Revoca”) di cui alla Sezione II
+dell’Allegato B alle Linee guida .
 
 .._stand-del-dato-identificativoflusso:
 
@@ -301,7 +301,7 @@ Credit Transfer (ref:`cfr. capitolo 6 <riversamento-agli-enti-creditori>`) ed an
 di cui ref:`al capitolo 7 <flusso-di-rendicontazione>` (cfr. Tabella 4 - Flusso per la rendicontazione -
 Schema dati), sarà adottata la seguente struttura
 
-    **<data regolamento> <istituto mittente>”-“<flusso>**
+**<data regolamento> <istituto mittente>”-“<flusso>**
 
 dove i componenti sopra indicati assumono il seguente significato:
 
