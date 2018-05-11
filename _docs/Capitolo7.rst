@@ -240,7 +240,7 @@ Si sottolinea infine che, essendo il flusso di rendicontazione associato
 ad un singolo SCT di riversamento, detto flusso è ovviamente sempre
 correlato ad un unico codice IBAN di accredito.
 
-.._precisazioni-sulla-colonna-contenutodella-tabella-4:
+.. _precisazioni-sulla-colonna-contenutodella-tabella-4:
 
 Precisazioni sulla colonna “contenuto”della Tabella 4    |image18|    
 -----------------------------------------------------
@@ -290,7 +290,7 @@ nell’elemento dataEsitoRevoca della struttura datiSingolaRevoca
 presente nell’oggetto ER (“Esito Revoca”) di cui alla Sezione II
 dell’Allegato B alle Linee guida .
 
-.._stand-del-dato-identificativoflusso:
+.. _stand-del-dato-identificativoflusso:
 
 Standardizzazione del dato identificativoFlusso 
 -----------------------------------------------
@@ -306,36 +306,37 @@ Schema dati), sarà adottata la seguente struttura
 dove i componenti sopra indicati assumono il seguente significato:
 
 
-	- **<data regolamento>**  -	contiene le stesse informazioni dell’elemento dataRegolamento del file XML;
+- **<data regolamento>**  -	contiene le stesse informazioni dell’elemento dataRegolamento del file XML;
 
 
-	- **<istituto mittente>** -     contiene il codice del PSP che    predispone il flusso. Si precisa che tale 
-	  				codice deve coincidere con il dato identificativoPSP indicato dal PSP stesso nel 
-					“*Catalogo Dati Informativi*” di cui `al paragrafo 5.3.7 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/ 
-					_docs/Capitolo5.html#catalogo-dati-informativi>`_  
-                                        della Sezione II dell’Allegato B alle Linee guida;
+- **<istituto mittente>** -     contiene il codice del PSP che    predispone il flusso. Si precisa che tale 
+	  			codice deve coincidere con il dato identificativoPSP indicato dal PSP stesso nel 
+				“*Catalogo Dati Informativi*” di cui 
+				`al paragrafo 5.3.7 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/ 
+				_docs/Capitolo5.html#catalogo-dati-informativi>`_  
+                                della Sezione II dell’Allegato B alle Linee guida;
 
  
-	- **"-"** -	                dato fisso;
+- **"-"** -	                dato fisso;
                        
 
-	- **<flusso>** - 		stringa alfanumerica che, insieme alle informazioni sopra indicate, consente di 
-					individuare univocamente il flusso stesso.  
-          		 		I caratteri ammessi all’interno della stringa sono: numeri da 0 a 9, 
-					lettere dell’alfabeto latino maiuscole e minuscole ed seguenti caratteri.              
-                                             +-------------------+-------------+---------------------+
-                                             | **ASCII**         | **Simbolo** | **Nome**            |
-                                             +-------------------+             +                     +
-                                             | **Dec** | **Hex** |             |                     |
-                                             +---------+---------+-------------+---------------------+
-                                             | 45      | 2D      | -           | minus sign - hyphen |
-                                             +---------+---------+-------------+---------------------+
-                                             | 95      | 5F      | -           | underscore          |
-                                             +---------+---------+-------------+---------------------+
+- **<flusso>** - 		stringa alfanumerica che, insieme alle informazioni sopra indicate, consente di 
+				individuare univocamente il flusso stesso.  
+       		 		I caratteri ammessi all’interno della stringa sono: numeri da 0 a 9, 
+				lettere dell’alfabeto latino maiuscole e minuscole ed seguenti caratteri.              
++-------------------------------+-------------------+-------------+---------------------+
+|                               | **ASCII**         | **Simbolo** | **Nome**            |
+|                               +-------------------+             +                     +
+|                               | **Dec** | **Hex** |             |                     |
+|                               +---------+---------+-------------+---------------------+
+|                               | 45      | 2D      | -           | minus sign - hyphen |
+|                               +---------+---------+-------------+---------------------+
+|                               | 95      | 5F      | -           | underscore          |
++-------------------------------+---------+---------+-------------+---------------------+
 
 Esempi: **2015-07-15xxxxxxxx-0000000001**
 
-        **2015-07-15xxxxxxxx-hh_mm_ss_nnn**
+**2015-07-15xxxxxxxx-hh_mm_ss_nnn**
 
 
 .. |image0| image:: media/image1.png
