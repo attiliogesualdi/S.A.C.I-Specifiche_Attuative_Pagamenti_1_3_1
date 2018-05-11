@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._Riconciliazione del pagamento:
+.. _Riconciliazione del pagamento:
 
 Riconciliazione del pagamento
 =============================
