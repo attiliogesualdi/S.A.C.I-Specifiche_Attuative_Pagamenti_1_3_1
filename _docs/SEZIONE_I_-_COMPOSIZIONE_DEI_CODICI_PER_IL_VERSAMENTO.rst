@@ -11,6 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
+.. _SezioneI:
 
 Sezione I - Composizione dei codici per il versamento
 =====================================================
@@ -34,6 +35,6 @@ composizione dell’operazione di trasferimento fondi, mentre nel capitolo
 5 saranno date istruzioni per la riconciliazione dei pagamenti che non
 sono oggetto di un riversamento cumulativo.
 
-.. |image0| image:: ./myMediaFolder/media/image1.png
+.. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
