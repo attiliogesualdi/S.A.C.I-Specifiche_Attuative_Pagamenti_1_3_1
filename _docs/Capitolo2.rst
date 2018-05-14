@@ -17,8 +17,8 @@
 2. **Generazione dell’Identificativo Univoco di Versamento**          |image1|
 ============================================================
 
-Secondo quanto definito nel `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
-delle Linee guida, 
+Secondo quanto definito nel `paragrafo 7.1 delle Linee guida,<http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
+ 
 « ..., ciascun Ente Creditore attribuisce ad ogni operazione di incasso un
 codice identificativo denominato “Identificativo Univoco di Versamento”
 (IUV) che non può essere associato nel tempo ad alcun altro incasso
@@ -30,8 +30,8 @@ Enti Creditori e quelle di riversamento a cura dei Prestatori di servizi
 di pagamento... » rappresentando pertanto uno degli elementi essenziali
 sui quali si base il sistema pagoPA\ :sup:`®`.
 
-Lo stesso `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
-delle Linee guida concede agli Enti Creditori la
+Lo stesso `paragrafo 7.1 delle Linee guida <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
+concede agli Enti Creditori la
 possibilità di « .... demandare ad un soggetto terzo, in tutto o in
 parte, la generazione dell’Identificativo Univoco di Versamento, curando
 che ne sia mantenuta l’univocità nel tempo».
@@ -95,8 +95,8 @@ hanno la necessità di generare il codice IUV in maniera indipendente.
 Definiamo quindi "punto di generazione del codice IUV" qualsiasi entità,
 facente parte o meno dell'organizzazione dell'Ente Creditore, incaricata
 da questo di associare un codice IUV ad un unico pagamento presente
-nell'archivio dei pagamenti in attesa di cui al `capitole 7 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_  
-delle Linee guida.
+nell'archivio dei pagamenti in attesa di cui al `capitole 7 delle Linee guida. http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_  
+
 
 .. _il-codice-di-segregazione:
 
