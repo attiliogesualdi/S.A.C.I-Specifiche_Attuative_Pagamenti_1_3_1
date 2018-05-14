@@ -1,7 +1,7 @@
 ﻿|image0|
 
 +---------------------------------------------------------------------------------------------------+
-| **Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione**  |
+| **SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE**  |
 |                                                                                                   |
 |                                                                                                   |
 | *Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle*       |
@@ -62,7 +62,7 @@ SEPA Credit Transfer nel caso di versamento effettuato tramite bonifico
 ovvero nel campo causale nel caso di versamento effettuato tramite
 bollettino di conto corrente postale.
 
-.._attività-facoltative-dei-prestatori-di-servizi-di-pagamento:
+.. _attività-facoltative-dei-prestatori-di-servizi-di-pagamento:
 
 Attività facoltative dei prestatori di servizi di pagamento
 -----------------------------------------------------------
