@@ -11,7 +11,10 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-Appendice 1 - Creditor Reference - Standard ISO 11649:2009
+.. _APPENDICE1:
+
+**APPENDICE 1 - CREDITOR REFERENCE - STANDARD ISO 11649:2009**
+==============================================================
 
 Secondo lo standard ISO 11649:2009 il *Creditor Reference* è un
 costrutto alfanumerico [10]_ lungo al massimo 25 caratteri, così
