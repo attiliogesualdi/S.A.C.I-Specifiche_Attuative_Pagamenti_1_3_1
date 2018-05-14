@@ -13,8 +13,8 @@
 
 .. _flusso-di-rendicontazione:
 
-Flusso di Rendicontazione  |image17|
--------------------------
+7. Flusso di Rendicontazione  |image17|
+----------------------------
 
 Le informazioni che devono essere messe a disposizione dell'Ente
 Creditore sono organizzate in flussi omogenei di dati e devono essere
@@ -242,8 +242,8 @@ correlato ad un unico codice IBAN di accredito.
 
 .. _precisazioni-sulla-colonna-contenutodella-tabella-4:
 
-Precisazioni sulla colonna “contenuto”della Tabella 4    |image18|    
------------------------------------------------------
+7.1 Precisazioni sulla colonna “contenuto”della Tabella 4    |image18|    
+---------------------------------------------------------
 
 Tenuto presente che il significato dei dati richiesti per il flusso di
 rendicontazione è riportato nella colonna “contenuto” della Tabella 4,
@@ -292,8 +292,8 @@ dell’Allegato B alle Linee guida .
 
 .. _stand-del-dato-identificativoflusso:
 
-Standardizzazione del dato identificativoFlusso 
------------------------------------------------
+7.2 Standardizzazione del dato identificativoFlusso 
+---------------------------------------------------
 
 Al fine di rendere omogenea la modalità di composizione del dato
 identificativoFlusso presente nella causale standardizzata del SEPA
@@ -327,7 +327,7 @@ dove i componenti sopra indicati assumono il seguente significato:
 +-------------------------------+-------------------+-------------+---------------------+
 |                               | **ASCII**         | **Simbolo** | **Nome**            |
 |                               +-------------------+             +                     +
-|                               | **Dec** | **Hex** |             |                     |
+|                               | **Dec**\| **Hex** |             |                     |
 |                               +---------+---------+-------------+---------------------+
 |                               | 45      | 2D      | \-          | minus sign - hyphen |
 |                               +---------+---------+-------------+---------------------+
