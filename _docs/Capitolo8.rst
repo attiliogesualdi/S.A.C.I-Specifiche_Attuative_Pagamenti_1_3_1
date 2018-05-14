@@ -13,8 +13,8 @@
 
 .. _riconciliazione-del-flusso-di-riversamento:
 
-Riconciliazione del flusso di riversamento  |image19| 
-==========================================
+8. Riconciliazione del flusso di riversamento  |image19| 
+=============================================
 
 La riconciliazione del riversamento effettuato dal prestatore di servizi
 di pagamento avviene a cura dell’Ente Creditore prendendo in
