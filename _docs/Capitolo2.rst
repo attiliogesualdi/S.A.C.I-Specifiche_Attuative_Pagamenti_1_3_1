@@ -17,7 +17,7 @@
 2. **Generazione dell’Identificativo Univoco di Versamento**          |image1|
 ============================================================
 
-Secondo quanto definito nel `paragrafo 7.1 delle Linee guida,<http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
+Secondo quanto definito nel `paragrafo 7.1 delle Linee guida.  <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
  
 « ..., ciascun Ente Creditore attribuisce ad ogni operazione di incasso un
 codice identificativo denominato “Identificativo Univoco di Versamento”
