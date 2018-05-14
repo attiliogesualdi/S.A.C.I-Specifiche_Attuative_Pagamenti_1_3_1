@@ -96,7 +96,7 @@ Definiamo quindi "punto di generazione del codice IUV" qualsiasi entità,
 facente parte o meno dell'organizzazione dell'Ente Creditore, incaricata
 da questo di associare un codice IUV ad un unico pagamento presente
 nell'archivio dei pagamenti in attesa di cui al 
-`capitole 7 delle Linee guida. http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_  
+`capitole 7 delle Linee guida. <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_  
 
 
 .. _il-codice-di-segregazione:
