@@ -1,7 +1,7 @@
 ﻿|image0|
 
 +---------------------------------------------------------------------------------------------------+
-| **Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione**  |
+| **SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE**  |
 |                                                                                                   |
 |                                                                                                   |
 | *Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle*       |
@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._ciclo-di-vita-del-pagamento:
+.. _ciclo-di-vita-del-pagamento:
 
 **Ciclo di vita del pagamento**
 ===============================
