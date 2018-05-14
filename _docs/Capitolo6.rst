@@ -13,8 +13,8 @@
 
 .. _riversamento-agli-enti-creditori:
 
-Riversamento agli enti creditori |image4|
---------------------------------
+6. Riversamento agli enti creditori |image4|
+-----------------------------------
 
 Fermo restando quanto indicato :ref:`al paragrafo 4.1 <giornata-operativa-ed-invio-del-sepa-credit-transfer>`, 
 in coerenza con gli articoli 15 e 20 del D. lgs n. 11/2010, per le operazioni di pagamento
