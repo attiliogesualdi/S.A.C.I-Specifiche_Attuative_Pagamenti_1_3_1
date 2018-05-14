@@ -13,8 +13,8 @@
 
 .. _formato-della-causale-di-versamento:
 
-Formato della Causale di versamento 
-===================================
+3. Formato della Causale di versamento 
+======================================
 
 La causale di versamento è il dato, predisposto dall’Ente Creditore, che
 il pagatore o il soggetto versante deve indicare - insieme al codice
@@ -64,8 +64,8 @@ bollettino di conto corrente postale.
 
 .. _attività-facoltative-dei-prestatori-di-servizi-di-pagamento:
 
-Attività facoltative dei prestatori di servizi di pagamento
------------------------------------------------------------
+3.1 Attività facoltative dei prestatori di servizi di pagamento
+---------------------------------------------------------------
 
 Nel caso di utilizzo del primo formato indicato nel paragrafo precedente
 (standard ISO 11649:2009) i prestatori di servizi di pagamento saranno
@@ -86,8 +86,8 @@ secondo il seguente formato:
 
 .. _esempi-di-composizione-della-stringa-di-formattazione:
 
-Esempi di composizione della stringa di formattazione
------------------------------------------------------
+3.2 Esempi di composizione della stringa di formattazione
+---------------------------------------------------------
 
 Di seguito si riportano alcuni esempi di stringhe di formattazione della
 causale di versamento che devono essere generate dagli enti creditori ed
