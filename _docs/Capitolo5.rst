@@ -13,8 +13,8 @@
 
 .. _Riconciliazione del pagamento:
 
-Riconciliazione del pagamento
-=============================
+5. Riconciliazione del pagamento
+================================
 
 I pagamenti che non siano oggetto di un riversamento cumulativo da parte
 del prestatore di servizi di pagamento dell’utilizzatore finale saranno
@@ -29,8 +29,8 @@ previste).
 
 .. _specificità-per-il-pagamento-della-marca-da-bollo-digitale:
 
-Specificità per il pagamento della Marca da bollo digitale
-----------------------------------------------------------
+5.1 Specificità per il pagamento della Marca da bollo digitale
+--------------------------------------------------------------
 
 Con riferimento al documento “Bollo Telematico @e.bollo - Linee guida
 per pubbliche amministrazioni e prestatori di servizi di
