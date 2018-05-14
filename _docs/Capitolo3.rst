@@ -24,7 +24,7 @@ proprio prestatore di servizi di pagamento.
 Al fine di effettuare una riconciliazione automatica del versamento,
 detta informazione dovrà essere composta secondo la struttura proposta
 dall’Associazione Europea dei Tesorieri di Impresa (EACT) nel documento
-“`EACT FORMATTING RULES OF SEPA “UNSTRUCTURED” 140 CHRS FIELD FOR REMITTANCE INFORMATION <http://www.europeanpaymentscouncil.eu/content.cfm?page=eact_standard_for_unstructured_remittance_information>`”
+“`EACT FORMATTING RULES OF SEPA “UNSTRUCTURED” 140 CHRS FIELD FOR REMITTANCE INFORMATION <http://www.europeanpaymentscouncil.eu/content.cfm?page=eact_standard_for_unstructured_remittance_information>_`”
 e finalizzata al trattamento automatizzato delle informazioni tra partner commerciali.
 
 In particolare, utilizzando questa configurazione, potranno essere
