@@ -13,8 +13,8 @@
 
 .. _operazione-di-trasferimento-fondi:
 
-OPERAZIONE di trasferimento fondi |image4|
-=================================
+4. Operazione di trasferimento fondi |image4|
+====================================
 
 Per l’esecuzione dell’operazione devono essere utilizzati gli schemi
 previsti del SEPA Credit Transfer (cfr SEPA *Credit Transfert Scheme
@@ -38,8 +38,8 @@ nel tracciato del SEPA Credit Transfer.
 
 .. _giornata-operativa-ed-invio-del-sepa-credit-transfer: 
 
-Giornata operativa ed invio del SEPA Credit Transfer
-----------------------------------------------------
+4.1 Giornata operativa ed invio del SEPA Credit Transfer
+--------------------------------------------------------
 
 In coerenza con quanto previsto all’articolo 20 del D. lgs n. 11/2010,
 il PSP del pagatore assicura che l'importo dell'operazione venga
@@ -80,8 +80,8 @@ Creditore nella misura economica direttamente imputabile al PSP.
 
 .. _utilizzo-del-bollettino-di-conto-corrente-postale:
 
-Utilizzo del bollettino di conto corrente postale |image5| 
--------------------------------------------------
+4.2 Utilizzo del bollettino di conto corrente postale |image5| 
+-----------------------------------------------------
 
 
 La causale del versamento - obbligatoria per le pubbliche
@@ -92,8 +92,8 @@ pubblici servizi e deve essere conforme al formato descritto nel
 
 .. _rifiuto-del-sepa-credit-transfer:
 
-Rifiuto del SEPA Credit Transfer |image7|
---------------------------------
+4.3 Rifiuto del SEPA Credit Transfer |image7|
+------------------------------------
 
 Qualora il SEPA Credit Transfer venga restituito con messaggio di REJECT
 al prestatore di servizi di pagamento che lo ha inviato, quest’ultimo
