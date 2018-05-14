@@ -1,7 +1,7 @@
 ﻿|image0|
 
 +---------------------------------------------------------------------------------------------------+
-| **Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione**  |
+| **SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE**  |
 |                                                                                                   |
 |                                                                                                   |
 | *Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle*       |
@@ -27,7 +27,7 @@ attraverso il componente **<IUV>** della causale e generare in modo
 automatico la reversale di incasso e la quietanza di pagamento (quando
 previste).
 
-.._specificità-per-il-pagamento-della-marca-da-bollo-digitale:
+.. _specificità-per-il-pagamento-della-marca-da-bollo-digitale:
 
 Specificità per il pagamento della Marca da bollo digitale
 ----------------------------------------------------------
