@@ -1,7 +1,7 @@
 ﻿|image0|
 
 +---------------------------------------------------------------------------------------------------+
-| **Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione**  |
+| **SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE**  |
 |                                                                                                   |
 |                                                                                                   |
 | *Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle*       |
@@ -491,7 +491,7 @@ alfanumerico> dovrà essere costante nel corso del tempo.
    configurazione del Nodo dei Pagamenti-SPC, che in questo modo sarà in
    grado di individuare il canale corretto di inoltro delle richieste di
    verifica e attivazione di pagamento 
-   (cfr § 8.2.3 delle SANP).
+   (`cfr § 8.2.3 delle SANP <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo8.html#pagamenti-in-attesa-e-richiesta-di-generazione-della-rpt>`_
 
    In sintesi questa informazione rappresenta "l'indirizzo"
    dell'archivio dove sono conservate le richieste in attesa che hanno
