@@ -24,6 +24,6 @@ Introduzione-architettura-di-PagoPA_1.0
    _docs/SEZIONE_II_-_COMPOSIZIONE_DEI_CODICI_PER_IL_RIVERSAMENTO_E_LA_RENDICONTAZIONE.rst
    _docs/APPENDICE_1.rst
 
-.. |image0| image:: ./myMediaFolder/media/image1.png
+.. |image0| image:: _docs/media/image1.png
    :width: 4.05in
    :height: 0.89306in
