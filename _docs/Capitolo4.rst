@@ -1,7 +1,7 @@
 ﻿|image0|
 
 +---------------------------------------------------------------------------------------------------+
-| **Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione**  |
+| **SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE**  |
 |                                                                                                   |
 |                                                                                                   |
 | *Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle*       |
@@ -36,7 +36,7 @@ altresì indicare il codice fiscale dell’ordinante, laddove conosciuto,
 nel dato “*Originator Identification Code”* (attributo AT-10) presente
 nel tracciato del SEPA Credit Transfer.
 
-.._giornata-operativa-ed-invio-del-sepa-credit-transfer: 
+.. _giornata-operativa-ed-invio-del-sepa-credit-transfer: 
 
 Giornata operativa ed invio del SEPA Credit Transfer
 ----------------------------------------------------
@@ -78,7 +78,7 @@ di riferimento [7]_.
 Si precisa che il PSP risulterà responsabile del danno arrecato all’Ente
 Creditore nella misura economica direttamente imputabile al PSP.
 
-.._utilizzo-del-bollettino-di-conto-corrente-postale:
+.. _utilizzo-del-bollettino-di-conto-corrente-postale:
 
 Utilizzo del bollettino di conto corrente postale |image5| 
 -------------------------------------------------
@@ -90,7 +90,7 @@ deve essere compilata anche per i versamenti a favore dei gestori di
 pubblici servizi e deve essere conforme al formato descritto nel
 :ref:`capitolo 3 <formato-della-causale-di-versamento>`.
 
-.._rifiuto-del-sepa-credit-transfer:
+.. _rifiuto-del-sepa-credit-transfer:
 
 Rifiuto del SEPA Credit Transfer |image7|
 --------------------------------
