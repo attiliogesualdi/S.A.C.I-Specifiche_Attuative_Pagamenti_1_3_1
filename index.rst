@@ -1,8 +1,8 @@
 ﻿|image0|
 
-#######################################
-Introduzione-architettura-di-PagoPA_1.0
-#######################################
+############################################################################################
+SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE
+############################################################################################
 
 .. toctree::
    :caption: Indice dei contenuti
