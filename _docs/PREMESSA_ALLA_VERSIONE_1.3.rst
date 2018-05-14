@@ -35,7 +35,7 @@ anticipate con il documento monografico "*Utilizzo del codice IUV per
 enti plurintermediati*".
 
 Le presenti specifiche aggiornano le regole di generazione del codice
-IUV definite al **`paragrafo 7.4.1 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo7.html#il-numero-avviso-e-larchivio-dei-pagamenti-in-attesa>`_** della versione 1.7.0 (marzo 2016)
+IUV definite al `paragrafo 7.4.1 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo7.html#il-numero-avviso-e-larchivio-dei-pagamenti-in-attesa>`_ della versione 1.7.0 (marzo 2016)
 delle "Specifiche Attuative del Nodo dei Pagamenti-SPC" Allegato B alle
 Linee guida (di seguito SANP).
 
