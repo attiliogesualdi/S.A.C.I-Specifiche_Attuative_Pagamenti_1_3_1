@@ -11,7 +11,7 @@
 | **Versione 1.3.1 - gennaio 2018**                                                                 |
 +---------------------------------------------------------------------------------------------------+
 
-.._Premessa:
+.. _Premessa:
 
 **Premessa**
 ============
@@ -49,6 +49,6 @@ riferimento agli standard internazionali SEPA che utilizzano il formato
 `UNIFI ISO 20022 <http://www.iso20022.org/>`__.
 
 
-.. |image0| image:: /media/image1.png
+.. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
