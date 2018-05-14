@@ -14,8 +14,8 @@
 .. _generazione-dellidentificativo-univoco-di-versamento:
 
 
-**Generazione dell’Identificativo Univoco di Versamento**          |image1|
-=========================================================
+2. **Generazione dell’Identificativo Univoco di Versamento**          |image1|
+============================================================
 
 Secondo quanto definito nel `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
 delle Linee guida, 
@@ -38,8 +38,8 @@ che ne sia mantenuta l’univocità nel tempo».
 
 .. _struttura-del-codice-iuv:
 
-Struttura del Codice IUV
-------------------------
+2.1 Struttura del Codice IUV
+----------------------------
 La generazione di un codice IUV che risulti **univoco** nel corso del
 tempo è una responsabilità in capo all'Ente Creditore, che è libero di
 strutturarne la composizione secondo le proprie esigenze, facendo
@@ -50,8 +50,8 @@ generazione” del codice stesso (:ref:`vedi § 2.1.2 <punti-di-generazione-del-
 
 .. _natura-del-pagamento:
 
-Natura del pagamento
-~~~~~~~~~~~~~~~~~~~~
+2.1.1 Natura del pagamento
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Come indicato nel `capitolo 2 delle SANP <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo2.html#modelli-del-processo-di-pagamento>`_ (Allegato B alle Linee guida),
 gli incassi che un Ente Creditore deve gestire possono essere distinti
@@ -79,7 +79,7 @@ caso precedente.
 
 .. _punti-di-generazione-del-codice-iuv:
 
-Punti di generazione del codice IUV
+2.1.2 Punti di generazione del codice IUV
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Il sistema pagoPA\ :sup:`®` consente ad un Ente Creditore di utilizzare
@@ -100,8 +100,8 @@ delle Linee guida.
 
 .. _il-codice-di-segregazione:
 
-Il codice di segregazione
-~~~~~~~~~~~~~~~~~~~~~~~~~
+2.1.3 Il codice di segregazione
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Tutto ciò premesso, è necessario definire delle regole affinché la
 codifica del pagamento risulti effettivamente univoca all'interno
@@ -135,8 +135,8 @@ Figura 2 - Attribuzione del codice segregazione
 
 .. _erogatori-di-servizi-centralizzati:
 
-Erogatori di servizi centralizzati
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.1.3.1 Erogatori di servizi centralizzati
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sono quei soggetti, censiti a livello generale, che erogano servizi
 centralizzati per una comunità di Enti Creditori con riferimento a
@@ -169,8 +169,8 @@ riportato in Tabella 1.
 
 .. _punti-di-generazione-del-codice-iuv-1:
 
-Punti di generazione del codice IUV
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.1.3.2 Punti di generazione del codice IUV
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 AgID attribuirà uno o più codici segregazione (progressivamente a
 salire: da 00 a 49) ad ognuno degli intermediari/partner tecnologici,
@@ -184,8 +184,8 @@ stregua di intermediario/partner dello stesso ente.
 
 .. _numero-avviso-e-codice-IUV-pagamenti-presso-psp:
 
-Numero avviso e codice IUV nel caso di pagamenti attivati presso i PSP
-----------------------------------------------------------------------
+2.2 Numero avviso e codice IUV nel caso di pagamenti attivati presso i PSP
+--------------------------------------------------------------------------
 
 Nel caso dei pagamenti attivati presso il PSP è sempre presente un
 avviso di pagamento (analogico o digitale) al quale è associato un
@@ -230,8 +230,8 @@ che può assumere la lunghezza del componente stesso.
 
 .. _composizione-del-codice-iuv:
 
-Composizione del codice IUV
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.1 Composizione del codice IUV
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 La composizione del **codice IUV** è rappresentata dallo schema (B) come
 concatenazione dei suoi componenti, che assumono il seguente
@@ -272,8 +272,8 @@ Creditore.
 
 .. _generazione-del-numero-avviso-e-del-codice-iuv:
 
-Generazione del Numero Avviso e del codice IUV
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.2 Generazione del Numero Avviso e del codice IUV
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 La necessità di gestire l’emissione del codice IUV presso più “punti di
 generazione”, nonché quella di trattare particolari situazioni in essere
@@ -307,8 +307,8 @@ sostituito dal componente <codice segregazione> (:ref:`vedi § 2.1.3 <il-codice-
 
 .. _valore-0-del-componente-aux-digit:
 
-Valore 0 del componente <Aux Digit>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.2.1 Valore 0 del componente <Aux Digit>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si tratta dello schema per la composizione del numero utilizzabile
 solamente se il "punto di generazione del codice IUV" sia unico. Lo
@@ -335,8 +335,8 @@ digit>, <application code> e <IUV base>.
 
 .. _valore-1-del-componente-aux-digit:
 
-Valore 1 del componente <Aux Digit>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.2.2 Valore 1 del componente <Aux Digit>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si tratta di uno schema previsto per tutelare particolari situazioni
 pre-esistenti alla emanazione delle Linee guida [4]_; tale schema è
@@ -357,8 +357,8 @@ proprio la segregazione tra le varie procedure aziendali, in questo caso
 
 .. _valore-2-del-componente-aux-digit:
 
-Valore 2 del componente <Aux Digit>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.2.3 Valore 2 del componente <Aux Digit>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si tratta di uno schema previsto per gestire Enti Creditori di grandi
 dimensioni, che però utilizzano un archivio APA non partizionato oppure
@@ -394,8 +394,8 @@ digit> e <IUV base>.
 
 .. _valore-3-del-componente-aux-digit:
 
-Valore 3 del componente <Aux Digit>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2.2.4 Valore 3 del componente <Aux Digit>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si tratta di uno schema previsto per gestire gli enti che hanno più di
 un intermediario/partner tecnologico, cioè enti per i quali il "punto di
@@ -430,8 +430,8 @@ segregazione.
 
 .. _codice-iuv-caso-pagamenti-ente-creditore:
 
-Codice IUV nel caso di pagamenti attivati preso l'Ente Creditore
-----------------------------------------------------------------
+2.3 Codice IUV nel caso di pagamenti attivati preso l'Ente Creditore
+--------------------------------------------------------------------
 
 Come già indicato, l’Ente Creditore è libero di strutturare secondo le
 proprie esigenze la composizione del codice IUV, tenendo in debito conto
