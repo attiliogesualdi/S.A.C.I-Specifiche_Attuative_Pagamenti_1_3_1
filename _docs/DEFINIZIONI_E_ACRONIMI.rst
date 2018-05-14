@@ -32,10 +32,9 @@ Definizioni e Acronimi
 |                               | web e trasmettere le informazioni in forma crittografata.                         |
 +-------------------------------+-----------------------------------------------------------------------------------+
 | Codice IUV                    | Sinonimo rafforzativo di IUV. È definito al                                       |
-|                               | `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/           |
-|                               | lineeguidapagamenti_v_1_1_0_0.pdf>`_                                              |
+|                               | `paragrafo 7.1 delle Linee guida. <http://www.agid.gov.it/sites/default/files/    |
+|                               | linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_                                  |
 |                               |                                                                                   |
-|                               | delle Linee guida.                                                                |
 +-------------------------------+-----------------------------------------------------------------------------------+
 | EC                            | Nel contesto del sistema pagoPA®                                                  |
 |                               |  comprende                                                                        |
@@ -57,10 +56,9 @@ Definizioni e Acronimi
 +-------------------------------+-----------------------------------------------------------------------------------+
 | Intermediario tecnologico     | EC o PSP aderente a pagoPA® che gestisce le attività di interconnessione al       |
 |                               | NodoSPC per conto di altri soggetti aderenti a pagoPA® (PA o PSP), ai sensi del   |
-|                               | `§ 8.3.3 <http://www.agid.gov.it/sites/default/files/linee_guida/                 |
-|                               | lineeguidapagamenti_v_1_1_0_0.pdf>`_                                              |
+|                               | `§ 8.3.3 delle Linee guida. <http://www.agid.gov.it/sites/default/files/          |
+|                               | linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_                                  |
 |                               |                                                                                   |
-|                               | delle Linee guida.                                                                |
 +-------------------------------+-----------------------------------------------------------------------------------+
 | IPA                           | L'Indice delle Pubbliche Amministrazioni (IPA) costituisce l'archivio             |
 |                               | ufficiale contenente i riferimenti organizzativi, telematici e toponomastici      |
