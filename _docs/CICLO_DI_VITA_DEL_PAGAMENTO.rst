@@ -74,6 +74,6 @@ effettuare la riconciliazione dei pagamenti presso gli enti creditori.
 .. |image0| image:: media/image1.png
    :width: 4.05in
    :height: 0.89306in
-.. |image1| image:: media/image8.png
+.. |image8| image:: media/image8.png
    :width: 0.7874in
    :height: 0.24059in
