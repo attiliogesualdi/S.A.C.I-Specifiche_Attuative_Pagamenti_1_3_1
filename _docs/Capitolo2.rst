@@ -286,22 +286,19 @@ codice IUV e del Numero Avviso.
 **Tabella** **2 - Composizione del codice avviso in funzione dei punti
 di generazione dello IUV**
 
-+---------+---------+---------+---------+---------+---------+---------+
-| **Punti | **<aux  | **<appl | **<codi | **Lungh | **<IUV  | **Lungh |
-| generaz | digit>* | ication | ce      | ezza**  | check   | ezza**  |
-| ione    | *       | code>** | segrega |         | digit>* |         |
-| IUV**   |         |         | zione>* | **<IUV  | *       | **codic |
-|         |         |         | *       | base>** |         | e       |
-|         |         |         |         |         |         | IUV**   |
-+=========+=========+=========+=========+=========+=========+=========+
-| 1       | 0       | si      | no      | 13      | si      | 15      |
-+---------+---------+---------+---------+---------+---------+---------+
-| 1       | 1       | no      | no      | 17      | no      | 17      |
-+---------+---------+---------+---------+---------+---------+---------+
-| ≥1      | 2       | no      | no      | 15      | si      | 17      |
-+---------+---------+---------+---------+---------+---------+---------+
-| > 1     | 3       | no      | si      | 13      | si      | 17      |
-+---------+---------+---------+---------+---------+---------+---------+
++---------------+---------------+----------------+-----------------+--------------+----------+-------------+
+|**Punti**      |**<aux digit>**|**<application**|**<codice**      |**Lunghezza** |**<IUV**  |**Lunghezza**|
+|**generazione**|               |**code>**       |**segregazione>**|**<IUV base>**|**check** |             |
+|**IUV**        |               |                |                 |              |**digit>**|             |
++===============+===============+================+=================+==============+==========+=============+
+| 1             | 0             | si             | no              | 13           | si       | 15          |
++---------------+---------------+----------------+-----------------+--------------+----------+-------------+
+| 1             | 1             | no             | no              | 17           | no       | 17          |
++---------------+---------------+----------------+-----------------+--------------+----------+-------------+
+| ≥ 1           | 2             | no             | no              | 15           | si       | 17          |
++---------------+---------------+----------------+-----------------+--------------+----------+-------------+
+| > 1           | 3             | no             | si               | 13          | si       | 17          |
++---------------+---------------+----------------+-----------------+--------------+----------+-------------+
 
 Come si vede da un'analisi della Tabella 2, nei casi in cui <aux digit>
 sia diverso da 0 la lunghezza del codice IUV è di 17 posizioni a scapito
@@ -506,7 +503,7 @@ alfanumerico> dovrà essere costante nel corso del tempo.
 .. [5]
    Si veda, ad esempio, il documento “RF Creditor reference” al seguente indirizzo
 
-   `https://www.ebaportal.eu/_Download/Research%20and%20Analysis/2010/rf_creditor_reference.pdf <https://www.ebaportal.eu/_Download/Research%20and%20Analysis/2010/rf_creditor_reference.pdf>`__,
+   `https://www.ebaportal.eu/_Download/Research%20and%20Analysis/2010/rf_creditor_reference.pdf  <https://www.ebaportal.eu/_Download/Research and Analysis/2010/rf_creditor_reference.pdf>`__,
 
    Vedi anche il calcolatore di Creditor Reference alla pagina
    `http://www.jknc.eu/RFcalculator <http://www.jknc.eu/RFcalculator>`__
