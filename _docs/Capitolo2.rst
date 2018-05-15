@@ -438,11 +438,11 @@ vantaggi in termini di riconciliazione per l’Ente Creditore [5]_
 Tutto ciò premesso, il codice IUV può essere pertanto generato secondo
 uno dei due seguenti schemi:
 
-+-----------------------------------------------------+-----+
-| <codice alfanumerico (max 35)>                      | (C) |
-+=====================================================+=====+
-| RF <check digit (2n)><codice alfanumerico (max 21)> | (D) |
-+-----------------------------------------------------+-----+
++------------------------------------------------------------------------------------+
+| <codice alfanumerico (max 35)>                                                 (C) |
++------------------------------------------------------------------------------------+
+| RF <check digit (2n)><codice alfanumerico (max 21)>                            (D) |
++------------------------------------------------------------------------------------+
 
 Nel caso in cui presso un Ente Creditore siano presenti “punti di
 generazione” del codice IUV tra loro diversi e non coordinati 
@@ -452,14 +452,11 @@ il codice IUV, generato per essere usato nell'ambito dei
 pagamenti attivati presso l'ente, potrà essere composto secondo uno dei
 due seguenti schemi:
 
-+-----------------------------------+-----------------------------------+
-| <codice segregazione (2n)><codice | (E)                               |
-| alfanumerico (max 33)>            |                                   |
-+===================================+===================================+
-| RF <check digit (2n)><codice      | (F)                               |
-| segregazione (2n)><codice         |                                   |
-| alfanumerico (max 19)>            |                                   |
-+-----------------------------------+-----------------------------------+
++----------------------------------------------------------------------------------------+
+| <codice segregazione (2n)><codicealfanumerico (max 33)>                            (E) |
++----------------------------------------------------------------------------------------+
+| RF <check digit (2n)><codice segregazione (2n)><codice alfanumerico (max 19)>      (F) |
++----------------------------------------------------------------------------------------+
 
 Si tenga in ogni caso presente che, al fine di evitare duplicazioni
 nella generazione del codice IUV, la lunghezza del componente <codice
