@@ -37,7 +37,8 @@ seguente significato:
 |             |          | livello 1 sono formate da tutti i dati di livello superiore ad 1, quelle di   |
 |             |          | livello 2 sono formate da tutti i dati di livello superiore a 2, e così via.  |
 +-------------+----------+-------------------------------------------------------------------------------+
-| **colonna** | *Gen*    | che può assumere i seguenti valori:                                           |
+| **colonna** | *Gen*    | indica il genere (tipo) del dato da utilizzare; può assumere                  |
+|             |          | i seguenti valori:                                                            |
 |             |          |                                                                               |
 |             |          | - s - struttura che può contenere altre strutture o dati,                     |
 |             |          |                                                                               |
@@ -80,9 +81,6 @@ seguente significato:
 | dataOraFlusso                    | 1       | an      | 1..1    | 19      | Indica la data e ora di                          |
 |                                  |         |         |         |         | creazione del flusso,                            |
 |                                  |         |         |         |         | secondo il formato ISO 8601                      |
-|                                  |         |         |         |         |                                                  |
-|                                  |         |         |         |         |                                                  |
-|                                  |         |         |         |         |                                                  |
 |                                  |         |         |         |         |                                                  |
 |                                  |         |         |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**              |
 +----------------------------------+---------+---------+---------+---------+--------------------------------------------------+
