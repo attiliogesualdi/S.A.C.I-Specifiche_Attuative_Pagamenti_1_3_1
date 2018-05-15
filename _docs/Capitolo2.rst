@@ -131,7 +131,7 @@ riportata in Figura 2.
 
 |image2|
 
-Figura 2 - Attribuzione del codice segregazione
+**Figura 2 - Attribuzione del codice segregazione**
 
 
 .. _erogatori-di-servizi-centralizzati:
