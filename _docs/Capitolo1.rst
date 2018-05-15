@@ -34,8 +34,8 @@ riconosciute).
 Le pagine di tali siti web, dedicate all'effettuazione dei pagamenti
 devono esporre il logo del sistema pagoPA\ :sup:`®` per dare prova della
 loro informatizzazione e promuovere i servizi di pagamento elettronici
-offerti attraverso il Sistema (`cfr. § 11.5 delle <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo11.html#utilizzo-del-marchio-pagopa>`_"Specifiche Attuative
-del Nodo dei Pagamenti-SPC" Allegato B alle Linee guida).
+offerti attraverso il Sistema (`cfr. § 11.5 delle "Specifiche Attuative
+del Nodo dei Pagamenti-SPC" <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/_docs/Capitolo11.html#utilizzo-del-marchio-pagopa>`_ Allegato B alle Linee guida).
 
 Gli indirizzi internet dei servizi dedicati ai pagamenti devono essere
 inoltre pubblicati sull'Indice delle Pubbliche Amministrazioni
