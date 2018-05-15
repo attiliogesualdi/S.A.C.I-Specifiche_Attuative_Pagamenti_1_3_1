@@ -18,7 +18,7 @@
 ====================================
 
 Una volta manifestatasi l’esigenza del pagamento (:ref:`vedi capitolo “Ciclo
-di vita del pagamento <ciclo-di-vita-del-pagamento>`”), gli Enti Creditori devono consentire agli
+di vita del pagamento” <ciclo-di-vita-del-pagamento>`), gli Enti Creditori devono consentire agli
 utilizzatori finali – a norma dell’articolo 5, comma 1 del CAD -
 l’effettuazione del pagamento con modalità elettronica: a tale scopo «…
 *a) sono tenuti* *a pubblicare* *nei propri siti istituzionali e a
