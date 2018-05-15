@@ -19,22 +19,22 @@
 
 Secondo quanto definito nel `paragrafo 7.1 delle Linee guida.  <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
  
-« ..., ciascun Ente Creditore attribuisce ad ogni operazione di incasso un
+*« ..., ciascun Ente Creditore attribuisce ad ogni operazione di incasso un
 codice identificativo denominato “Identificativo Univoco di Versamento”
 (IUV) che non può essere associato nel tempo ad alcun altro incasso
-emesso dal medesimo Ente Creditore .....».
+emesso dal medesimo Ente Creditore .....».*
 
-Il codice IUV assume quindi una rilevanza fondamentale « ... al fine di
+Il codice IUV assume quindi una rilevanza fondamentale *« ... al fine di
 consentire le attività di riconciliazione del pagamento da parte degli
 Enti Creditori e quelle di riversamento a cura dei Prestatori di servizi
-di pagamento... » rappresentando pertanto uno degli elementi essenziali
+di pagamento... »* rappresentando pertanto uno degli elementi essenziali
 sui quali si base il sistema pagoPA\ :sup:`®`.
 
 Lo stesso `paragrafo 7.1 delle Linee guida <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ 
 concede agli Enti Creditori la
-possibilità di « .... demandare ad un soggetto terzo, in tutto o in
+possibilità di *« .... demandare ad un soggetto terzo, in tutto o in
 parte, la generazione dell’Identificativo Univoco di Versamento, curando
-che ne sia mantenuta l’univocità nel tempo».
+che ne sia mantenuta l’univocità nel tempo».*
 
 .. _struttura-del-codice-iuv:
 
@@ -194,34 +194,25 @@ Numero Avviso che contiene al suo interno il codice IUV. La struttura
 del Numero Avviso [2]_ è specificata dallo schema (A), dove i componenti
 indicati assumono il seguente significato:
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-| <aux digit (1n)>[<application code> (2n)]<codice IUV (15|17n)> (A)                                                             |
-+--------------------------------------------------------------------------------------------------------------------------------+
-| aux digit        | Valore numerico che definisce la struttura del                                                              |
-|                  | codice IUV in funzione del numero di punti di generazione dello stesso                                      |
-+------------------+-------------------------------------------------------------------------------------------------------------+
-| application code | Valore numerico che serve ad individuare la porzione                                                        |
-|                  | dell’archivio dei pagamenti in attesa interessata dall’operazione [3]_.                                     |
-|                  | Il dato è presente o meno in funzione del componente                                                        |
-|                  | <aux digit>                                                                                                 |
-|                  |                                                                                                             |
-|                  |                                                                                                             |
-|                  | In sintesi questa                                                                                           |
-|                  | informazione rappresenta "l'indirizzo" dell'archivio dove sono                                              |
-|                  | conservate le richieste in attesa che hanno dato luogo all’avviso di pagamento.                             |
-|                  |                                                                                                             |
-|                  |                                                                                                             |
-|                  |                                                                                                             |
-+------------------+-------------------------------------------------------------------------------------------------------------+
-| codice IUV       | Rappresenta l'identificativo univoco di versamento, così come definito nel                                  |
-|                  | `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ |
-|                  | delle Linee guida. Ad un singolo pagamento in attesa può essere associato uno ed un solo codice IUV,        |
-|                  | indipendentemente dai possibili diversi strumenti messi a disposizioni dal PSP.                             |
-|                  |                                                                                                             |
-|                  | Per la struttura del codice IUV si                                                                          |
-|                  |                                                                                                             |
-|                  | :ref:`veda il § 2.2.1. <composizione-del-codice-iuv>`                                                       |
-+------------------+-------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------+
+| <aux digit (1n)>[<application code> (2n)]<codice IUV (15|17n)> (A)                                                                 |
++------------------------------------------------------------------------------------------------------------------------------------+
+| **aux digit**        | Valore numerico che definisce la struttura del                                                              |
+|                      | codice IUV in funzione del numero di punti di generazione dello stesso (vedi Tabella 2 a pagina 15);        |
++----------------------+-------------------------------------------------------------------------------------------------------------+
+| **application code** | Valore numerico che serve ad individuare la porzione                                                        |
+|                      | dell’archivio dei pagamenti in attesa interessata dall’operazione [3]_.                                     |
+|                      | Il dato è presente o meno in funzione del componente                                                        |
+|                      | <aux digit> (vedi Tabella 2 a pagina 15);                                                                   |
++----------------------+-------------------------------------------------------------------------------------------------------------+
+| **codice IUV**       | Rappresenta l'identificativo univoco di versamento, così come definito nel                                  |
+|                      | `paragrafo 7.1 <http://www.agid.gov.it/sites/default/files/linee_guida/lineeguidapagamenti_v_1_1_0_0.pdf>`_ |
+|                      | delle Linee guida. Ad un singolo pagamento in attesa può essere associato uno ed un solo codice IUV,        |
+|                      | indipendentemente dai possibili diversi strumenti messi a disposizioni dal PSP.                             |
+|                      |                                                                                                             |
+|                      | Per la struttura del codice IUV si                                                                          |
+|                      | :ref:`veda il § 2.2.1. <composizione-del-codice-iuv>`                                                       |
++----------------------+-------------------------------------------------------------------------------------------------------------+
 
 Si noti come, nella rappresentazione del precedente schema e di quelli
 successivi, i componenti all'interno delle parentesi quadre possano non
