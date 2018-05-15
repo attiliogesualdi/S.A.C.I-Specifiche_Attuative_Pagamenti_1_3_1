@@ -119,7 +119,7 @@ seguente significato:
 |                                  |         |         |         |         |                                                  |
 |                                  |         |         |         |         |                                                  |
 |                                  |         |         |         |         | - **‘B’** = Codice BIC                           |
-|                                  |         |         |         |         | (standard ISO 9362)                              |
+|                                  |         |         |         |         |   (standard ISO 9362)                            |
 +----------------------------------+---------+---------+---------+---------+--------------------------------------------------+
 | codiceIdentificativoUnivoco      | 3       | an      | 1..1    | 1..35   | Campo alfanumerico che può contenere             |
 |                                  |         |         |         |         | il codice fiscale o la partita IVA,              |
@@ -206,7 +206,7 @@ seguente significato:
 |                                  |         |         |         |         |                                                  |
 |                                  |         |         |         |         |                                                  |
 |                                  |         |         |         |         | - **9** = Pagamento eseguito                     |
-|                                  |         |         |         |         | in assenza di RPT                                |
+|                                  |         |         |         |         |   in assenza di RPT                              |
 +----------------------------------+---------+---------+---------+---------+--------------------------------------------------+
 | dataEsitoSingoloPagamento        | 2       | an      | 1..1    | 10      | Indica la data in cui è stato                    |
 |                                  |         |         |         |         | disposto o revocato il pagamento,                |
