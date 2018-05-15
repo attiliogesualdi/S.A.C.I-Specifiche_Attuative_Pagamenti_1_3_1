@@ -30,7 +30,7 @@ tipologia di servizio al quale si riferisce il pagamento stesso.
 
 |image8|
 
-Figura 1 - Ciclo di vita del pagamento
+**Figura 1 - Ciclo di vita del pagamento**
 
 L’esigenza del pagamento può nascere sulla base di un bisogno
 dell’utilizzatore finale che necessita, ad esempio, di un servizio da
