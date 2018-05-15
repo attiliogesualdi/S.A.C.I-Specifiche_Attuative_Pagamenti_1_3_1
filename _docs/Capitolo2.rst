@@ -196,7 +196,7 @@ indicati assumono il seguente significato:
 
 +------------------------------------------------------------------------------------------------------------------------------------+
 | <aux digit (1n)>[<application code> (2n)]<codice IUV (15|17n)> (A)                                                                 |
-+------------------------------------------------------------------------------------------------------------------------------------+
++----------------------+-------------------------------------------------------------------------------------------------------------+
 | **aux digit**        | Valore numerico che definisce la struttura del                                                              |
 |                      | codice IUV in funzione del numero di punti di generazione dello stesso (vedi Tabella 2 a pagina 15);        |
 +----------------------+-------------------------------------------------------------------------------------------------------------+
@@ -229,31 +229,28 @@ La composizione del **codice IUV** è rappresentata dallo schema (B) come
 concatenazione dei suoi componenti, che assumono il seguente
 significato:
 
-+----------------------------------------------------------------------------------------+
-| [<Codice segregazione (2n)>]<IUV base (13|15|17n)>[<IUV check digit (2n)]> (B)         |
-+----------------------------------------------------------------------------------------+
-| Codice segregazione  | Valore numerico che rappresenta il Codice di Segregazione       |
-|                      | (:ref:`vedi § 2.1.3 <il-codice-di-segregazione>`)               |
-|                      | Il componente è presente o meno nella struttura del             |
-|                      | codice IUV in funzione del componente                           |
-|                      | <aux digit> del Numero Avviso (vedi Tabella 2)                  |
-+----------------------+-----------------------------------------------------------------+
-| IUV base             | Valore numerico che ogni Ente Creditore è libero di             |
-|                      | strutturare secondo le proprie esigenze, nei limiti indicati    |
-|                      | dalle presenti specifiche attuative.                            |
-|                      | Il componente assume una lunghezza variabile in funzione        |
-|                      | del componente <aux digit> del Numero Avviso                    |
-|                      |                                                                 |
-|                      | (vedi Tabella 2)                                                |
-+----------------------+-----------------------------------------------------------------+
-| IUV check digit      | Rappresenta il codice di controllo dello IUV,                   |
-|                      | calcolato con l'algoritmo precisato nei paragrafi successivi.   |
-|                      | Il componente è presente o meno nella struttura del codice IUV  |
-|                      | in funzione del componente <aux digit> del Numero Avviso        |
-|                      |                                                                 |
-|                      | (vedi Tabella 2)                                                |
-|                      |                                                                 |
-+----------------------+-----------------------------------------------------------------+
++-------------------------------------------------------------------------------------------+
+| [<Codice segregazione (2n)>]<IUV base (13|15|17n)>[<IUV check digit (2n)]> (B)            |
++-------------------------+-----------------------------------------------------------------+
+| **Codice segregazione** | Valore numerico che rappresenta il **Codice di Segregazione**   |
+|                         | (:ref:`vedi § 2.1.3 <il-codice-di-segregazione>`)               |
+|                         | Il componente è presente o meno nella struttura del             |
+|                         | codice IUV in funzione del componente                           |
+|                         | <aux digit> del Numero Avviso (vedi Tabella 2)                  |
++-------------------------+-----------------------------------------------------------------+
+| **IUV base**            | Valore numerico che ogni Ente Creditore è libero di             |
+|                         | strutturare secondo le proprie esigenze, nei limiti indicati    |
+|                         | dalle presenti specifiche attuative.                            |
+|                         | Il componente assume una lunghezza variabile in funzione        |
+|                         | del componente <aux digit> del Numero Avviso                    |
+|                         | (vedi Tabella 2)                                                |
++-------------------------+-----------------------------------------------------------------+
+| **IUV check digit**     | Rappresenta il codice di controllo dello IUV,                   |
+|                         | calcolato con l'algoritmo precisato nei paragrafi successivi.   |
+|                         | Il componente è presente o meno nella struttura del codice IUV  |
+|                         | in funzione del componente <aux digit> del Numero Avviso        |
+|                         | (vedi Tabella 2 a pagina 15)                                    |
++-------------------------+-----------------------------------------------------------------+
 
 La previsione del carattere di controllo dello IUV (<IUV check digit>)
 non comporta per il PSP l’obbligo bensì la facoltà di verifica,
