@@ -304,24 +304,22 @@ Schema dati), sarà adottata la seguente struttura
 dove i componenti sopra indicati assumono il seguente significato:
 
 
-- **<data regolamento>**  -	contiene le stesse informazioni dell’elemento dataRegolamento del file XML;
+- **<data regolamento>** contiene le stesse informazioni dell’elemento dataRegolamento del file XML;
 
 
-- **<istituto mittente>** -     contiene il codice del PSP che    predispone il flusso. Si precisa che tale 
-	  			codice deve coincidere con il dato identificativoPSP indicato dal PSP stesso nel 
-				“*Catalogo Dati Informativi*” di cui 
-				`al paragrafo 5.3.7 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/ 
-				_docs/Capitolo5.html#catalogo-dati-informativi>`_  
-                                della Sezione II dell’Allegato B alle Linee guida;
+- **<istituto mittente>** contiene il codice del PSP che    predispone il flusso. Si precisa che tale 
+codice deve coincidere con il dato identificativoPSP indicato dal PSP stesso nel 
+“*Catalogo Dati Informativi*” di cui `al paragrafo 5.3.7 <http://pagopa-specifichepagamenti.readthedocs.io/it/latest/ 
+_docs/Capitolo5.html#catalogo-dati-informativi>`_  della Sezione II dell’Allegato B alle Linee guida;
 
  
-- **"-"** -	                dato fisso;
+- **"-"** dato fisso;
                        
 
-- **<flusso>** - 		stringa alfanumerica che, insieme alle informazioni sopra indicate, consente di 
-				individuare univocamente il flusso stesso.  
-       		 		I caratteri ammessi all’interno della stringa sono: numeri da 0 a 9, 
-				lettere dell’alfabeto latino maiuscole e minuscole ed seguenti caratteri.              
+- **<flusso>** stringa alfanumerica che, insieme alle informazioni sopra indicate, consente di 
+individuare univocamente il flusso stesso. I caratteri ammessi all’interno della stringa sono: numeri da 0 a 9, 
+lettere dell’alfabeto latino maiuscole e minuscole ed seguenti caratteri.
+
 +-------------------------------+-------------------+-------------+---------------------+
 |                               | **ASCII**         | **Simbolo** | **Nome**            |
 |                               +-------------------+             +                     +
