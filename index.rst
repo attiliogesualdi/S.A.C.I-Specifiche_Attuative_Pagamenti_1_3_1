@@ -1,18 +1,7 @@
 ﻿|image0|
  
-+---------------------------------------------------------------------------------------------------+
-| **SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE**  |
-|                                                                                                   |
-|                                                                                                   |
-| *Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle*       |
-| *pubbliche amministrazioni e dei gestori di pubblici servizi"*                                    |
-|                                                                                                   |
-|                                                                                                   |
-| **Versione 1.3.1 - gennaio 2018**                                                                 |
-+---------------------------------------------------------------------------------------------------+
-
 ############################################################################################
-SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE
+Specifiche Attuative dei Codici Identificativi di Versamento, Riversamento e Rendicondazione
 ############################################################################################
 
 .. toctree::
